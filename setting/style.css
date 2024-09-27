@@ -1,0 +1,123 @@
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* struktura */
+/* strefa 1 */
+.sherchbar{
+    width: 100%;
+    height: 50px;
+    background: white;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* zawartość sherchbar*/
+.section1{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: -40px;
+    background-image: url(https://yt3.googleusercontent.com/UlCw6skRB67meHd_jffAzV6DeXzAk1YzEFyhxI4meSgYAjA0wRhEnhT3TfHvuo7R-VwISzRTTao=s900-c-k-c0x00ffffff-no-rj);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+.logoText{
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(71, 71, 71);
+}
+#logoText{
+    margin-left: 5px;
+}
+
+.section2{
+    width: 55%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.searchbar{
+    width: 70%;
+    border-radius: 10px;
+    background: rgba(255, 0, 0, 0);
+    border: solid 1px black;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: rgb(71, 71, 71);
+}
+
+/* sectionFirst */
+.title{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: rgb(59, 59, 59);
+    font-size: 30px;
+}
+.info{
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.personalDate{
+    width: 80%;
+    height: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.line{
+    width: 80%;
+    height: 2px;
+    background-color: black;
+}
+span{
+    font-weight: 900;
+}
+.xd{
+    height: 10px;
+    width: 0px;
+}
+.pos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44vh;
+}
+.version{
+    color: rgb(117, 117, 117);
+}
+
+/* nav */
+.navigation{
+    width: 40%;
+    height: 50px;
+    position: absolute;
+    margin-top: -98vh;
+    z-index: 100;
+    background: orange;
+}
